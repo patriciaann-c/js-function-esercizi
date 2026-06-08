@@ -15,7 +15,7 @@ function calcRemainYearWork(birthYear, gender) {
 
     const currentYear = new Date().getFullYear()
     const age = currentYear - birthYear;
-    const noMoreWork = retiredYear - age
+    const noMoreWork = retiredYear - age;
 
     return noMoreWork;
 }
