@@ -2,7 +2,7 @@
 const prezzo_base = 4;
 const tariffa_extra = 5;
 const orario_partenza = 9;
-const orario_arrivo = 11;
+const orario_arrivo = 15;
 
 // FUNZIONE
 function calcTariffa(timeStart, timeEnd, basePrice, extraPrice) {
@@ -15,7 +15,7 @@ function calcTariffa(timeStart, timeEnd, basePrice, extraPrice) {
 }
 
 // BUSINESS LOGIC
-const totale_prezzo = (calcTariffa(timeStart, timeEnd, basePrice, extraPrice));
+const totale_prezzo = (calcTariffa(orario_partenza, orario_arrivo, prezzo_base, tariffa_extra));
 
 //OUTPUT
 console.log(totale_prezzo);
